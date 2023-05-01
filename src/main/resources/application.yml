@@ -35,8 +35,8 @@ eureka:
       default-zone: http://localhost:8761/eureka
 
 keycloak:
-  resource: REFOCL2N1045IN1045
-  realm: Refo
+  resource:
+  realm:
   auth-server-url: ${KEYCLOAK_URL:http://localhost:8080}
   ssl-required: none
   credentials:

@@ -30,6 +30,8 @@ dependencies {
 	implementation "org.keycloak:keycloak-admin-client:${keycloakVersion}"
 	implementation "org.keycloak:keycloak-spring-boot-starter:${keycloakVersion}"
 	implementation 'org.json:json:20230227'
+	implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 }
 
 dependencyManagement {
